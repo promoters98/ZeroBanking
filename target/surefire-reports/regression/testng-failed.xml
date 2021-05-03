@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [regression]">
+  <test thread-count="5" verbose="0" name="RegressionTest(failed)">
+    <classes>
+      <class name="regression.TC002verifyAddPayee">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="login"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- regression.TC002verifyAddPayee -->
+      <class name="regression.TC004PayBills">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="logOut"/>
+          <include name="payBills"/>
+        </methods>
+      </class> <!-- regression.TC004PayBills -->
+      <class name="regression.TC003verifyTransferFunds">
+        <methods>
+          <include name="transferFunds"/>
+          <include name="openBrowser"/>
+          <include name="logOut"/>
+        </methods>
+      </class> <!-- regression.TC003verifyTransferFunds -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [regression] -->

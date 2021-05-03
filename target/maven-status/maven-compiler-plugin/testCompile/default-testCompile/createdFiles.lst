@@ -1,0 +1,9 @@
+rough\ReadExcelFile.class
+datadriventesting\TC001verifyLoginReadFromExcel.class
+datadriventesting\TC001verifyLogin.class
+regression\TC001verifyLogin.class
+regression\TC002verifyAddPayee.class
+regression\TC004PayBills.class
+regression\TC003verifyTransferFunds.class
+regression\TC005DownloadStatement.class
+rough\Log4JDemo.class
